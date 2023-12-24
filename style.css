@@ -1,0 +1,14 @@
+body {
+    background-image: url("/image/background.png");
+  }
+
+  .earth{
+    background-image: url("image/earth.png");
+    background-repeat: no-repeat;
+  }
+
+  .textMake {
+    text-shadow: -0px 1px 20px #000000;
+  }
+  
+  

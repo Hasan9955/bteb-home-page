@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/svg+xml" href="/image/logo.png">
+  <title>বাংলাদেশ কারিগরি শিক্ষা বোর্ড-গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="max-w-5xl mx-auto">
+
+  <div class="px-5 bg-white 2shadow-xl">
+    <div class="shadow-xl">
+
+
+      <nav class="flex flex-col">
+        <div class=" flex justify-between px-3 bg-violet-700 h-8 text-white ">
+          <div class="flex items-center gap-1">
+            <a href="http://www.bangladesh.gov.bd/" class="text-[12px] ">বাংলাদেশ জাতীয় তথ্য বাতায়ন</a>
+
+            <select class=" text-[10px] h-5 bg-white text-black w-28 ml-2 rounded" aria-label="Default select example">
+              <option value="অফিসের ধরণ" selected>অফিসের ধরণ</option>
+              <option value="মন্ত্রণালয়/বিভাগ">মন্ত্রণালয়/বিভাগ</option>
+              <option value="অধিদপ্তর বাতায়ন">অধিদপ্তর বাতায়ন</option>
+              <option value="বিভাগীয় বাতায়ন">বিভাগীয় বাতায়ন</option>
+              <option value="জেলা বাতায়ন">জেলা বাতায়ন</option>
+              <option value="উপজেলা বাতায়ন">উপজেলা বাতায়ন</option>
+              <option value="ইউনিয়ন বাতায়ন">ইউনিয়ন বাতায়ন</option>
+              <option value="অন্যান্য">অন্যান্য</option>
+            </select>
+            <div class="bg-[#4ba614] w-5 h-5 text-white  text-[12px] rounded-sm shadow-xl ml-1"><button
+                class=" ">Go</button></div>
+          </div>
+
+
+          <div class="flex justify-start items-start gap-2">
+            <input type="text" class="w-20 h-4 rounded text-black pl-1 text-[10px] ">
+            <button class=" w-10 h-4 bg-[#4ba614] text-[12px] rounded-sm shadow-xl font-bold ">Search</button>
+            <button class=" w-10 h-4 bg-[#b6bab3] text-[10px] rounded-sm shadow-xl text-black ">English</button>
+          </div>
+        </div>
+        <hr class="h-1 bg-[#7fff2f]">
+        <hr class="h-1 bg-violet-900">
+      </nav>
+
+      <!-- banner carousal -->
+      <div class="relative">
+
+
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img class="h-[250px] w-full" src="/image/baner_ratio.jpg" alt="">
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide7" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img class="h-[250px] w-full" src="/image/7thMarch.jpg" alt="">
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img class="h-[250px] w-full" src="/image/myschool (1).jpg" alt="">
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img class="h-[250px] w-full" src="/image/banner_5.jpg" alt="">
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide5" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide5" class="carousel-item relative w-full">
+            <img class="h-[250px] w-full" src="/image/dengue.jpg" alt="">
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide6" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide6" class="carousel-item relative w-full">
+            <img class="h-[250px] w-full" src="/image/ssc_result_2022.jpg" alt="">
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide5" class="btn btn-circle">❮</a>
+              <a href="#slide7" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide7" class="carousel-item relative w-full">
+            <img class="h-[250px] w-full" src="/image/student.jpg" alt="">
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide6" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+
+
+        <a href=" " class="flex items-center gap-3 absolute bottom-6 left-6 ">
+          <img class="w-14" src="/image/logo.png" alt="">
+          <div class="mt-3 textMake text-white">
+            <h2 class="text-xl font-extrabold ">বাংলাদেশ কারিগরি শিক্ষা বোর্ড</h2>
+            <p class="text-sm mt-2 font-extrabold">গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</p>
+          </div>
+        </a>
+
+      </div>
+
+
+
+      <!-- button section -->
+      <div class=" ">
+        <div class="flex ">
+          <button class="border text-[13px] px-2 hover:bg-black hover:text-white"><svg
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+            </svg>
+          </button>
+          <div class="dropdown dropdown-hover">
+            <button class="border text-[13px] p-2 text-orange-600 hover:bg-orange-600 hover:text-white">আমাদের
+              সম্পর্কে</button>
+            <ul tabindex="10" class="dropdown-content z-[1] p-2  shadow bg-base-100 w-36 text-[12px]">
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">ইতিহাস</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">অবকাঠামো</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">কার্যক্রম</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">কর্মকর্তা বৃন্দ (জেষ্ঠ্যতার ভিত্তিতে নয়)</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">কর্মচারীবৃন্দ (জেষ্ঠ্যতার ভিত্তিতে নয়)</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">সকল ফোকাল পয়েন্ট</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">সিটিজেন চার্টার</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">বিভাগীয় প্রধানদের বিকল্প কর্মকর্তা</a></li>
+            </ul>
+          </div>
+
+
+          <div class="dropdown dropdown-hover">
+            <button class="border text-[13px] p-2 text-[#C40A2A] hover:bg-[#C40A2A] hover:text-white">পাঠ্যক্রম</button>
+            <ul tabindex="10" class="dropdown-content z-[1] p-2  shadow bg-base-100 w-36 text-[12px]">
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">ডিপ্লোমা পর্যায়</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">এইচ এস সি পর্যায়</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">এস,এস,সি পর্যায়</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">সল্প মেয়াদী ও অন্যান্য</a></li>
+            </ul>
+          </div>
+
+
+          <div class="dropdown dropdown-hover">
+            <button class="border text-[13px] p-2 text-[#84154C] hover:bg-[#84154C] hover:text-white">শিক্ষকদের
+              তথ্য</button>
+            <ul tabindex="10" class="dropdown-content z-[1] p-2  shadow bg-base-100 w-36 text-[12px]">
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">ডিপ্লোমা লেভেল</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">এইচ এস সি লেভেল</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">এস এস সি লেভেল</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">সল্প মেয়াদী ও অন্যান্য</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">ডিপ্লোমা ইন টেক্সটাইল</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">ডিপ্লোমা ইন এগ্রিকালচার ও ফিসারীজ</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown dropdown-hover">
+            <button class="border text-[13px] p-2 text-[#098346] hover:bg-[#098346] hover:text-white">প্রকাশনা</button>
+            <ul tabindex="10" class="dropdown-content z-[1] p-2  shadow bg-base-100 w-36 text-[12px]">
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">গবেষণা প্রতিবেদন</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">বার্ষিক প্রতিবেদন</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">চিরঞ্জীব বঙ্গবন্ধু</a></li>
+            </ul>
+          </div>
+          <div class="dropdown dropdown-hover">
+            <button class="border text-[13px] p-2 text-[#1399BE] hover:bg-[#1399BE] hover:text-white">রেজাল্ট</button>
+            <ul tabindex="10" class="dropdown-content z-[1] p-2  shadow bg-base-100 w-36 text-[12px]">
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">ডিপ্লোমা ইঞ্জিনিয়ারিং</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">ডিপ্লোমা এগ্রি</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">এইচ এস সি পর্যায়</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">বিএম/ডিকম</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">এস এস সি পর্যায়</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">সল্পমেয়াদী ও অন্যান্য</a></li>
+            </ul>
+          </div>
+          <div class="dropdown dropdown-hover">
+            <button class="border text-[13px] p-2 text-[#8768DE] hover:bg-[#8768DE] hover:text-white">ডাউনলোড</button>
+            <ul tabindex="10" class="dropdown-content z-[1] p-2  shadow bg-base-100 w-36 text-[12px]">
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">সিলেবাস/কোর্স স্ট্রাকচার/প্রবিধান</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">ফরমসমূহ</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">একাডেমিক ক্যালেন্ডার</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">আইন/বিধি/নীতিমালা</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">পাঠ্যবই</a></li>
+              <li><a class="mt-4 w-full hover:bg-base-200 " href="">কারিগরি শিক্ষক নির্দেশিকা</a></li>
+            </ul>
+          </div>
+
+
+          <button class="border text-[13px] p-2 hover:bg-black hover:text-white">ফটোগ্যালারী</button>
+          <button class="border text-[13px] p-2 hover:bg-black hover:text-white">NTVQF ওয়েবসাইট</button>
+          <button class="border text-[13px] p-2 hover:bg-black hover:text-white">ই-সেবা</button>
+        </div>
+        <div class="flex ">
+          <button class="border text-[13px] p-2 hover:bg-black hover:text-white">তথ্য প্রাপ্তির জন্য যোগাযোগ</button>
+          <button class="border text-[13px] p-2 hover:bg-black hover:text-white">পলিটেকনিকসমূহ</button>
+          <button class="border text-[13px] p-2 hover:bg-black hover:text-white">টেকনিক্যাল স্কুল ও কলেজসমূহ</button>
+        </div>
+      </div>
+
+
+      <div class="flex mt-10">
+        <div class="w-3/4 border">
+          <div class="text-[11px] flex justify-between bg-gray-200 items-center p-2 border">
+            <p>খবর: </p>
+            <marquee width="100%" behavior="scroll" class="hover:underline">বোর্ডের সাথে যোগাযোগের হটলাইন 01550620604,
+              01876397138 (২০২৩-১১-১৩)</marquee>
+            <button class="px-1 bg-gray-400">সকল</button>
+          </div>
+
+          <div class="earth mt-3 bg-base-200 border-2">
+            <div class="pl-24 pt-5 pb-2 ">
+              <h2 class="mb-3">নোটিশ বোর্ড</h2>
+
+
+              <ul class="text-[11px] list-disc ml-5 ">
+                <li class="hover:underline"><a href="">ডিপ্লোমা ইন মেডিকেল টেকনোলজি শিক্ষাক্রমের বিভিন্ন পর্বের
+                    শিক্ষার্থীদের বদলি সংক্রান্ত...</a></li>
+                <li class="hover:underline"><a href="">২০২৩-২৪ অর্থবছরের উপবৃত্তি প্রদানের নিমিত্ত নতুন শিক্ষার্থীদের
+                    তথ্য এন্ট্রি (প্রযোজ্য...</a></li>
+                <li class="hover:underline"><a href="">ডিপ্লোমা ইন মেডিকেল টেকনোলজি শিক্ষাক্রমের ১৫ ও ১৬ তারিখের পরীক্ষা
+                    স্থগিত করণ প্রসঙ্গে...</a></li>
+                <li class="hover:underline"><a href="">এসএসসি (ভোকেশনাল) ও দাখিল (ভোকেশনাল) শিক্ষাক্রমের নবম শ্রেণিতে
+                    ভর্তি নির্দেশিকা-২০২৪</a></li>
+                <li class="hover:underline"><a href="">জেএসসি (ভোকেশনাল) ও জেডিসি (ভোকেশনাল) শিক্ষাক্রমের ৬ষ্ঠ, ৭ম ও ৮ম
+                    শ্রেণিতে ভর্তি নির্দ...</a></li>
+                <li class="hover:underline"><a href="">ডিপ্লোমা-ইন-টেক্সটাইল, এগ্রিকালচার, ফিসারিজ, লাইভস্টক, ফরেস্ট্রি
+                    শিক্ষাক্রমের ১৫ নভেম...</a></li>
+              </ul>
+            </div>
+            <div class="flex justify-end p-2"><button class="px-1 bg-gray-400 justify-end text-[11px]">সকল</button>
+            </div>
+          </div>
+
+          <div class="mt-10 grid grid-cols-2 gap-5"> 
+              <div class="p-3 bg-base-200 border-2">
+                <h2 class="mb-3">বিজ্ঞপ্তি</h2>
+                
+                <ul class="text-[11px] list-disc ml-5 ">
+                  <li class="hover:underline"><a href="">ডিপ্লোমা পর্যায়</a></li>
+                  <li class="hover:underline"><a href="">এইচ এস সি পর্যায়</a></li>
+                  <li class="hover:underline"><a href="">এস,এস,সি পর্যায়</a></li>
+                  <li class="hover:underline"><a href=""> সল্প মেয়াদী ও অন্যান্য</a></li> 
+                </ul> 
+            </div>
+            <div class="p-3 bg-base-200 border-2">
+              <h2 class="mb-3">অনলাইনে ভর্তি (সেশনঃ ২০২৩-২০২৪)</h2>
+              <div class="flex justify-start items-start">
+                <img class="w-20" src="/image/apply.jpg" alt="">
+                <ul class="text-[11px] list-disc ml-5 ">
+                  <li class="hover:underline"><a href="">সরকারি ও বেসরকারি সকল শিক্ষাক্রমে ভর্তি</a></li>
+                  <li class="hover:underline"><a href="">প্রতিষ্ঠানের তালিকা</a></li>
+                  <li class="hover:underline"><a href="">ভর্তির নীতিমালা</a></li> 
+                </ul>
+              </div>
+            </div>  
+            <div class="p-3 bg-base-200 border-2">
+              <h2 class="mb-3">ইনস্টিটিউট কর্ণার</h2>
+              <div class="flex justify-start items-start">
+                <img class="w-20" src="/image/institute.png" alt="">
+                <ul class="text-[11px] list-disc ml-5 ">
+                  <li class="hover:underline"><a href="">ইনস্টিটিউট লগইন (এসএসসি ও এইচএসসি পর্যায়)</a></li>
+                  <li class="hover:underline"><a href="">ইনস্টিটিউট লগইন (ডিপ্লোমা ও সার্টিফিকেট পর্যায়)</a></li> 
+                </ul>
+              </div>
+            </div>  
+            <div class="p-3 bg-base-200 border-2">
+              <h2 class="mb-3">ফর্ম ফিলআপ</h2>
+              <div class="flex justify-start items-start">
+                <img class="w-20" src="/image/form fill up.jpg" alt="">
+                <ul class="text-[11px] list-disc ml-5 "> 
+                  <li class="hover:underline"><a href="">ডিপ্লোমা পর্যায়</a></li>
+                  <li class="hover:underline"><a href="">এইচ এস সি পর্যায়</a></li>
+                  <li class="hover:underline"><a href="">এস,এস,সি পর্যায়</a></li> 
+                  <li class="hover:underline"><a href="">সল্প মেয়াদী ও অন্যান্য</a></li> 
+                </ul>
+              </div>
+            </div>  
+            <div class="p-3 bg-base-200 border-2">
+              <h2 class="mb-3">রেজিষ্ট্রেশন</h2>
+              <div class="flex justify-start items-start">
+                <img class="w-20" src="/image/registration.jpg" alt="">
+                <ul class="text-[11px] list-disc ml-5 ">
+                  <li class="hover:underline"><a href="">বেসরকারি নতুন ভর্তি ২০২১-২০২২</a></li>
+                  <li class="hover:underline"><a href="">ডিপ্লোমা / এইচএসসি পর্যায়</a></li>
+                  <li class="hover:underline"><a href="">এস এস সি পর্যায়</a></li> 
+                  <li class="hover:underline"><a href="">সল্প মেয়াদী ও অন্যান্য</a></li> 
+                </ul>
+              </div>
+            </div>  
+            <div class="p-3 bg-base-200 border-2">
+              <h2 class="mb-3">অনলাইন তথ্য প্রেরণ/গ্রহণ</h2>
+              <div class="flex justify-start items-start">
+                <img class="w-20" src="/image/number.jpg" alt="">
+                <ul class="text-[11px] list-disc ml-5 ">
+                   <li class="hover:underline"><a href="">ডিপ্লোমা পর্যায়</a></li>
+                  <li class="hover:underline"><a href="">TC/PC/PF/IA মার্ক ও GPA এন্ট্রি</a></li>
+                  <li class="hover:underline"><a href="">Center Examinee & Absent/Expelled তথ্য প্রেরণ</a></li> 
+                  <li class="hover:underline"><a href="">Institute Account এবং Teacher List এন্ট্রি</a></li> 
+                </ul>
+              </div>
+            </div>  
+            <div class="p-3 bg-base-200 border-2">
+              <h2 class="mb-3">চলমান ফলাফল</h2>
+              <div class="flex justify-start items-start">
+                <img class="w-20" src="/image/result.png" alt="">
+                <ul class="text-[11px] list-disc ml-5 ">
+                  <li class="hover:underline"><a href="">ডিপ্লোমা পর্যায়</a></li>
+                  <li class="hover:underline"><a href="">এইচ এস সি পর্যায়</a></li>
+                  <li class="hover:underline"><a href="">এস,এস,সি পর্যায়</a></li> 
+                  <li class="hover:underline"><a href="">সল্প মেয়াদী ও অন্যান্য</a></li> 
+                </ul>
+              </div>
+            </div>  
+            <div class="p-3 bg-base-200 border-2">
+              <h2 class="mb-3">উত্তরপত্র পুণঃনিরীক্ষণ/স্থগিত ফলাফল</h2>
+              <div class="flex justify-start items-start">
+                <img class="w-20" src="/image/re examin.jpg" alt="">
+                <ul class="text-[11px] list-disc ml-5 ">
+                  <li class="hover:underline"><a href="">ডিপ্লোমা পর্যায়</a></li>
+                  <li class="hover:underline"><a href="">এইচ এস সি পর্যায়</a></li>
+                  <li class="hover:underline"><a href="">এস,এস,সি পর্যায়</a></li> 
+                  <li class="hover:underline"><a href="">সল্প মেয়াদী ও অন্যান্য</a></li> 
+                </ul>
+              </div>
+            </div>  
+            <div class="p-3 bg-base-200 border-2">
+              <h2 class="mb-3">জব প্লেসমেন্ট</h2>
+              <div class="flex justify-start items-start">
+                <img class="w-20" src="/image/JOB.jpg" alt="">
+                <ul class="text-[11px] list-disc ml-5 ">
+                  <li class="hover:underline"><a href=""> </a></li>
+                  <li class="hover:underline"><a href=""> </a></li>
+                  <li class="hover:underline"><a href=""> </a></li> 
+                </ul>
+              </div>
+            </div>  
+            <div class="p-3 bg-base-200 border-2">
+              <h2 class="mb-3">বার্ষিক কর্মসম্পাদন চুক্তি</h2>
+              <div class="flex justify-start items-start">
+                <img class="w-20" src="/image/apa_cab.png" alt="">
+                <ul class="text-[11px] list-disc ml-5 ">
+                  <li class="hover:underline"><a href="">এপিএ প্রকাশনা/নির্দেশিকা/পরিপত্র/এপিএ টীম</a></li>
+                  <li class="hover:underline"><a href="">চুক্তিসমূহ</a></li>
+                  <li class="hover:underline"><a href="">পরিবীক্ষণ ও মূল্যায়ন প্রতিবেদন</a></li> 
+                  <li class="hover:underline"><a href="">বার্ষিক ক্রয় পরিকল্পনা/দরপত্র</a></li> 
+                </ul>
+              </div>
+            </div>  
+            <div class="p-3 bg-base-200 border-2">
+              <h2 class="mb-3">অন্যান্য সেবা ও পরিসংখ্যান</h2>
+              <div class="flex justify-center items-center">
+                <img class="w-20" src="/image/others2.jpg" alt="">
+                <ul class="text-[11px] list-disc ml-5 ">
+                  <li class="hover:underline"><a href="">পরীক্ষা নিয়মনীতি (ডিপ্লোমা)</a></li>
+                  <li class="hover:underline"><a href="">পরীক্ষা নিয়মনীতি (অন্যান্য)</a></li>
+                  <li class="hover:underline"><a href="">পরিসংখ্যান</a></li> 
+                </ul>
+              </div>
+            </div>  
+            <div class="p-3 bg-base-200 border-2">
+              <h2 class="mb-3">অভিযোগ প্রতিকার ব্যবস্থাপনা</h2>
+              <div class="flex justify-center items-center">
+                <img class="w-20" src="/image/ovijog.png" alt="">
+                <ul class="text-[11px] list-disc ml-5 ">
+                  <li class="hover:underline"><a href="">অনিক ও আপিল কর্মকর্তাগণ</a></li>
+                  <li class="hover:underline"><a href=""> মাসিক/ত্রৈমাসিক/বার্ষিক পরিবীক্ষণ/মূল্যায়ন প্রতিবেদন</a></li>
+                  <li class="hover:underline"><a href="">অভিযোগ দাখিল (অনলাইনে আবেদন)</a></li> 
+                  <li class="hover:underline"><a href="">আইন/বিধি/নীতিমালা/নির্দেশিকা</a></li> 
+                </ul>
+              </div>
+            </div>  
+            <div class="p-3 bg-base-200 border-2">
+              <h2 class="mb-3">সেবা প্রদান প্রতিশ্রুতি (সিটিজেন্‌স চার্টার)</h2>
+              <div class="flex justify-start items-start">
+                <img class="w-20" src="/image/Service.png" alt="">
+                <ul class="text-[11px] list-disc ml-5 ">
+                  <li class="hover:underline"><a href="">সেবা প্রদান প্রতিশ্রুতি</a></li>
+                  <li class="hover:underline"><a href="">ফোকাল পয়েন্ট কর্মকর্তা/পরীবীক্ষন কমিটি</a></li>
+                  <li class="hover:underline"><a href="">ত্রৈমাসিক/বার্ষিক পরীবীক্ষণ/মূল্যায়ন প্রতিবেদন</a></li> 
+                  <li class="hover:underline"><a href="">আইন/বিধি/নীতিমালা/পরিপত্র</a></li> 
+                </ul>
+              </div>
+            </div> 
+          </div>
+        </div>
+
+
+
+        <!--  <div class="w-1/4">
+          <img src="image/Minister_.jpg" alt="">
+          <img src="image/Deputy Minister1.jpg" alt="">
+          <img src="image/Kamal-Hossain (1).jpg" alt="">
+          <img src="image/1627977336newChairman.jpg" alt="">
+          <img src="image/Mizanur-Rahman-Secretary-BTEB-2 (2).jpg" alt="">
+        </div> -->
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</body>
+
+</html>
